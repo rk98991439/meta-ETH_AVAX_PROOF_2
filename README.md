@@ -1,12 +1,65 @@
-# Starter Next/Hardhat Project
+# Hardhat Project
+Simple Ethereum Contract Application
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+## Description
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+This project is a simple Ethereum contract application that allows users to interact with a contract deployed on the local Hardhat network. The contract includes functions for depositing and withdrawing funds, and the values of these functions are displayed in the frontend of the application built using Next.js.
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+## Getting Started
+
+### Installing
+
+1. Clone the repository to your local machine.
+
+```shell
+git clone <repository_url>
+```
+
+2. Navigate to the project directory.
+
+```shell
+cd <project_directory>
+```
+
+3. Install the project dependencies.
+
+```shell
+npm install
+```
+
+### Executing program
+
+1. Open two additional terminals in your Visual Studio Code or any other code editor.
+
+2. In the second terminal, start the local Hardhat network.
+
+```shell
+npx hardhat node
+```
+
+3. In the third terminal, deploy the contract on the local network.
+
+```shell
+npx hardhat run --network localhost scripts/deploy.js
+```
+
+4. Back in the first terminal, start the frontend application.
+
+```shell
+npm run dev
+```
+
+5. Open your web browser and navigate to `http://localhost:3000` to access the application.
+
+## Help
+
+If you encounter any issues or have any questions, please feel free to contact the authors.
+
+## Authors
+- Author 1 : MetacrafterChris  (Forked his starter template)
+- Author 2 : [Rohit Kumar](mailto:rk98991439@gmail.com)
+
+
+## License
+
+This project is licensed under the [MIT License](https://license.md/).
